@@ -504,197 +504,85 @@ body{
     color: #555;
 }
 
-@media only screen and (max-width: 900px) {
-    .navbar ul {
-        flex-direction: column;
-        gap: 15px;
+@media only screen and (max-width: 700px) {
+    .navbar{
+        flex-direction: column !important;
     }
 
-    .databases {
-        flex-direction: column;
-        padding: 0 20px;
+    .clickmart{
+        width: 200px;
     }
 
-    .image {
-        height: 400px;
-        width: 100%;
+    .navbar ul{
+        margin: 20px;
     }
 
-    .overview {
-        flex-direction: column;
-        gap: 30px;
-        margin: 50px 20px;
+    .magnify{
+        margin-bottom: 15px;
     }
 
-    .categories {
-        flex-direction: column;
-        padding: 20px;
-        gap: 20px;
-    }
-
-    .accurate {
-        padding: 20px;
-    }
-
-    .get-started {
-        width: 50%;
-    }
-
-    .visualization {
-        height: 400px;
-        width: 100%;
-    }
-
-    .vision {
-        flex-direction: column;
-        gap: 50px;
-        margin: 50px 20px;
-    }
-
-    .evision {
-        padding: 30px;
-        max-width: 100%;
-    }
-
-    .build {
-        flex-direction: column;
-        gap: 30px;
-        padding: 20px;
-    }
-
-    .summary {
-        height: 400px;
-        width: 100%;
-    }
-
-    .minute {
-        font-size: 40px;
-    }
-
-    .do {
-        flex-direction: column;
-        gap: 30px;
-        padding: 20px;
-    }
-
-    .avtar {
-        height: 400px;
-        width: 100%;
-    }
-
-    .footer {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 20px;
-        padding: 20px;
-    }
-
-    .footer ul {
-        padding: 0;
-        gap: 10px;
-    }
-
-    .credit, .menu {
-        width: 100%;
-    }
-}
-
-
-@media only screen and (max-width: 600px) {
-    .navbar ul {
-        gap: 10px;
-    }
-
-    .magnify button {
-        padding: 15px;
-        font-size: 0.9em;
-    }
-
-    .contact button {
-        padding: 10px;
-        font-size: 0.9em;
-    }
-
-    .databases {
-        padding: 0 10px;
-    }
-
-    .only {
+    .only{
         font-size: 30px;
+        margin-top: 15px;
     }
 
-    .power {
+    .databases{
+        flex-wrap: wrap;
+    }
+
+    .india{
+        line-height: 35px;
+    }
+
+    .image{
+        width: 300px;
+    }
+
+    .overview{
+        flex-wrap: wrap;
+    }
+
+    .vision{
+        flex-wrap: wrap;
+    }
+
+    .do{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    .collect{
         font-size: 20px;
-        line-height: 25px;
     }
 
-    .india {
-        font-size: 1.2em;
+    .avtar{
+        width: 450px;
     }
 
-    .get-started {
-        width: 80%;
-        font-size: 12px;
+    .solutions{
+        flex-wrap: wrap;
+
     }
 
-    .overview {
-        margin: 30px 10px;
+    .client{
+        font-size: 20px
     }
 
-    .diverse {
-        padding: 10px 20px;
+    .enhance{
+        font-size: 2em;
+        margin-right: 20px;
     }
 
-    .categories {
-        padding: 10px;
+    .from{
+        font-size: 2em;
+        margin-right: 15px
     }
 
-    .accurate {
-        padding: 10px;
+    .top{
+        flex-wrap: wrap;
     }
 
-    .visualization, .image, .summary, .avtar {
-        height: 300px;
-        width: 100%;
-    }
-
-    .goal, .target, .why, .encompass, .excel, .vocal {
-        padding: 10px;
-    }
-
-    .minute {
-        font-size: 30px;
-    }
-
-    .retail {
-        font-size: 16px;
-        line-height: 20px;
-    }
-
-    .specialize {
-        font-size: 14px;
-        padding: 0 10px;
-    }
-
-    .evision {
-        padding: 20px;
-    }
-
-    .footer {
-        padding: 10px;
-        gap: 10px;
-    }
-
-    .footer ul {
-        gap: 5px;
-    }
-
-    .regular {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .icons, .icon {
-        gap: 10px;
+    #line{
+        margin: 10px 120px;
     }
 }
